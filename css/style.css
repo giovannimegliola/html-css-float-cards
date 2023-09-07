@@ -1,37 +1,35 @@
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.clearfix::after{
+
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
-/*.debug{
-    border: 1px solid black;
-    padding: 10px;
-}*/
 
-body{
-    font-family:Fredoka;
+
+body {
+    font-family: Fredoka;
 }
 
-h1{
+h1 {
     color: #E5316F;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.paragraph{
+.paragraph {
     font-size: 0.8em;
     text-align: center;
 }
@@ -44,16 +42,15 @@ h1{
     border: 1px solid #ccc;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     text-align: center;
-    padding: 20px;
-}   
-
-.team-card img {
-    max-width: 100%;
-    height: auto;
+    padding: 0px;
+    background-color: black;
 }
 
+
+
 .team-card h2 {
-    margin: 10px 0;
+    margin: 10px auto;
+    color: white;
 }
 
 .team-card img {
@@ -65,7 +62,11 @@ h1{
 
 .team-card-text {
     float: left;
-    width: 60%;
-    padding: 20px;
+    width: 50%;
+    text-align: left;
+    color: white;
 }
 
+.email{
+    color:#47A9C5;
+}
