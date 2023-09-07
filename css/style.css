@@ -3,3 +3,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*.debug{
+    border: 1px solid black;
+    padding: 10px;
+}*/
+
+body{
+    font-family:Fredoka;
+}
+
+h1{
+    color: #E5316F;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.paragraph{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+.team-card {
+    width: 30%;
+    margin: 1%;
+    float: left;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 20px;
+}   
+
+.team-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.team-card h2 {
+    margin: 10px 0;
+}
+
+.team-card img {
+    float: left;
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.team-card-text {
+    float: left;
+    width: 60%;
+    padding: 20px;
+}
+
