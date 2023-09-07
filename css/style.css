@@ -24,7 +24,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-.container {
+.container{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -69,4 +69,8 @@ h1 {
 
 .email{
     color:#47A9C5;
+}
+
+h2{
+    float: left;
 }
