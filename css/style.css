@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 .clearfix::after {
     content: "";
@@ -24,13 +28,8 @@ h1 {
     margin-bottom: 30px;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .paragraph {
-    font-size: 0.9em;
     text-align: center;
 }
 
@@ -71,4 +70,8 @@ h2{
     float: left;
     color: white;
     padding-top: 30px;
+}
+
+.incipit{
+    padding-bottom: 30px;
 }
